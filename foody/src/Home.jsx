@@ -1,34 +1,13 @@
 import React from "react";
 import "./Home.css";
-import "./share.png";
+// import "./share.png";
+import Navbar from "./Navbar";
 
-const img = require("./share.png");
+// const img = require("./share.png");
 
 
 const share = () => {
   return <>alert("Share this app with your friends");</>;
-};
-
-const Navbar = () => {
-  return (
-    <div>
-      <ul className="navbar">
-        <li className="element1">
-          <h1>Foodie</h1>
-        </li>
-        <li className="element2">
-          <img
-            src={img}
-            alt="share_image"
-            height="30px"
-            width="50px"
-            id="share"
-            onClick={share}
-          />
-        </li>
-      </ul>
-    </div>
-  );
 };
 
 const Body = () => {
@@ -69,3 +48,4 @@ function Home() {
 }
 
 export default Home;
+// export { Navbar, Body };
