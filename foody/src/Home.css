@@ -33,4 +33,26 @@
 
 }
 
+.Body{
+    background-color: black;
+    width:100%;
+    height:100%;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ebebeb;
+  font-size: 20px;
+  background: #087cc9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #33a7f0;
+  text-decoration: none;
+}
 
