@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 // import "./share.png";
 import Navbar from "./Navbar";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { useHistory } from "react-router-dom";
 // const img = require("./share.png");
 
@@ -35,9 +35,9 @@ const Body = () => {
           body{" "}
         </h3>
       </section>
-      {/* <Link to="/q1"> */}
+      <Link to="/q1">
       <button className="btn">Get Started</button>
-      {/* </Link> */}
+      </Link>
     </div>
   );
 };
