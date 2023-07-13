@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Video from './Video'
+import './Home.css'
 
 
 
 const Body = () => {
   return (
     <div>
-      <section className="question">
-        <h1>How is your mood today ?</h1>
+      <section className="radio1question">
+        <h1>How is your <br /> Mood <br /> today ?</h1>
       </section>
 
       <section className="answer">
@@ -35,6 +37,7 @@ const Body = () => {
 function Q1() {
   return (
     <div>
+      <Video />
       <Navbar />
       <Body />
 
