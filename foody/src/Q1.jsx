@@ -2,32 +2,21 @@ import React from 'react'
 import Navbar from './Navbar'
 import Video from './Video'
 import './Home.css'
-
-
+// import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion"
 
 const Body = () => {
   return (
     <div>
       <section className="radio1question">
-        <h1>How is your <br /> Mood <br /> today ?</h1>
+        <h1>On a scale of 1 to 10, how would you rate your current mood?</h1>
       </section>
 
-      <section className="answer">
-        <input type="radio" name="taste" id="salt-radio" />
-        <label for="salt-radio">Salt</label>
-
-        <input type="radio" name="taste" id="spicy-radio" />
-        <label for="spicy-radio">Spicy</label>
-
-        <input type="radio" name="taste" id="sweet-radio" />
-        <label for="sweet-radio">Sweet</label>
-
-        <input type="radio" name="taste" id="bitter-radio" />
-        <label for="bitter-radio">Bitter</label>
-
-        <input type="radio" name="taste" id="umami-radio" />
-        <label for="umami-radio">Umami</label>
-      </section>
+      
+      <Link to="/q1/q2">
+        <button className="Q1btn">🡲</button>
+      </Link>
     </div>
   );
 }
@@ -36,13 +25,16 @@ const Body = () => {
 
 function Q1() {
   return (
-    <div>
+    <motion.div
+      intial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Video />
       <Navbar />
       <Body />
-
-    </div>
-  )
+    </motion.div>
+  );
 }
 
 export default Q1

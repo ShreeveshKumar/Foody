@@ -210,6 +210,177 @@ video{
   color: #e5e7e9;
   font-size: 70px;
   font-family: 'Poppins', sans-serif;
-  
+  margin-left:20px;
+  border-left: 5px solid #08659e;
 
+
+}
+
+
+.radio1answer1{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:15%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+}
+
+.salt-radio{
+  margin-left: 150px;
+}
+
+
+.radio1answer2{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:30%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+}
+
+
+.radio1answer3{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:45%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+}
+
+
+.radio1answer4{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:60%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+}
+
+
+.radio1answer5{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:75%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+}
+
+.radio1answer1:hover{
+  border: 2px solid #08659e;
+  /* border-bottom: 5px solid #08659e; */
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+.radio1answer2:hover{
+  border: 2px solid #08659e;
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+.radio1answer3:hover{
+  border: 2px solid #08659e;
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+.radio1answer4:hover{
+  border: 2px solid #08659e;
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+.radio1answer5:hover{
+  border: 2px solid #08659e;
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+
+
+.spicy-radio{
+  margin-left: 150px;
+}
+
+.sweet-radio{
+  margin-left: 150px;
+}
+
+.bitter-radio{
+  margin-left: 150px;
+}
+
+.unami-radio{
+  margin-left: 150px;
+}
+
+.nextradio{
+   background-color: #08659e;
+   display: inline-block;
+   position: absolute;
+   top:80%;
+   height: 30px;
+}
+
+
+
+.Q1btn{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ebebeb;
+  font-size: 20px;
+  background: #08659e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.Q1btn:hover {
+  background: #33a7f0;
+  text-decoration: none;
+}
+
+.radio1question{
+  top:10%;
 }

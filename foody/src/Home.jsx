@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import Video from "./Video";
 import ShareIcon from "@mui/icons-material/Share";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 // import Button from "@mui/material/Button";
 // import { useHistory } from "react-router-dom";
@@ -16,19 +17,19 @@ import { useState } from "react";
 // };
 
 const Body = () => {
-   const [isCopied, setIsCopied] = useState(false);
-   const handleCopyLink = () => {
-     const link = "https://example.com"; // Replace with your desired link
+  const [isCopied, setIsCopied] = useState(false);
+  const handleCopyLink = () => {
+    const link = "https://example.com"; // Replace with your desired link
 
-     navigator.clipboard
-       .writeText(link)
-       .then(() => {
-         setIsCopied(true);
-       })
-       .catch((error) => {
-         console.error("Error copying link to clipboard:", error);
-       });
-   };
+    navigator.clipboard
+      .writeText(link)
+      .then(() => {
+        setIsCopied(true);
+      })
+      .catch((error) => {
+        console.error("Error copying link to clipboard:", error);
+      });
+  };
   return (
     <div className="Body">
       <section className="element2">
@@ -58,13 +59,18 @@ const Body = () => {
 
 function Home() {
   return (
-    <div>
+    <motion.div
+    intial={{opacity:0}} 
+    animate={{opacity:1}}
+    exit={{opacity:0, transition:1}}
+    >
       <Navbar />
       <Body />
       <Video />
-    </div>
+    </motion.div>
   );
 }
 
 export default Home;
 // export { Navbar, Body };
+
