@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './Navbar'
 import Video from './Video'
 import './Q3.css'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+// import Happy from './Happy';
 // import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 // import { motion } from "framer-motion"
 
@@ -34,9 +35,9 @@ function Q3() {
       {/* <section className="nextradio">
         <ArrowCircleRightIcon />
       </section> */}
-      {/* <Link to="/q1/q2">
+      <Link to="/q1/q2/q3/happy">
         <button className="btn">Next</button>
-      </Link> */}
+      </Link>
     </div>
   );
 }
