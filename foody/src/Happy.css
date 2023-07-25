@@ -1,27 +1,21 @@
-.happytop{
-    background-color: yellow;
-    padding:30px;
-    padding-top:200px;
+.result {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
 }
 
-.result{
-    font-size: 15px;
-    font-weight: 100;
-    text-align: center;
+.resultbody {
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
 }
 
-.resultbody{
-    font-size: 60px;
-    font-weight: 100;
-    text-align: center;
-}
-
-.resultshare{
+.resultshare {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
   font-family: Courier New;
-  color: #ebebeb;
+  color: #000000;
   font-size: 20px;
   background: #08659e;
   padding: 10px 20px 10px 20px;
@@ -30,10 +24,9 @@
   position: relative;
   top: 70%;
   left: 45%;
-  font-family: 'Quicksand', sans-serif;
-  margin:30px;
-  margin-top:70px;
-  
+  font-family: "Quicksand", sans-serif;
+  margin: 30px;
+  margin-top: 70px;
 }
 
 .resultshare:hover {
@@ -41,11 +34,104 @@
   text-decoration: none;
 }
 
+.card {
+  /* padding:500px; */
+  background-color: rgb(211, 212, 211);
+  margin: 200px;
+  border-radius: 10px;
+  /* border-shadow:1px solid red 10px 10px 10px 10px; */
+  box-shadow: 21px 21px 21px 21px #f03333;
+}
 
-.card{
-    padding:500px;
-    background-color: green;
-    margin:200px;
-    border-radius: 10px;
-    
+.cardname {
+  display: inline-block;
+
+  font-weight: 400;
+  font-size: 70px;
+  font-family: "Indie Flower", cursive;
+}
+
+.carddesc {
+  display: inline-block;
+  /* margin-left: 50px; */
+  /* font-family: 'Indie Flower', cursive;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+  font-family: "Quicksand", sans-serif;
+}
+
+.cardbody {
+  display: inline-block;
+  /* margin-left: 50px;
+    margin-top: 50px; */
+  font-size: 20px;
+  font-weight: 100;
+  /* text-align: center;  */
+  /* padding-right: 400px; */
+  text-align: left;
+  /* width:40%; */
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
+}
+
+.card {
+  padding: 50px;
+}
+
+.cardlink {
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+}
+
+.cardimg {
+  display: inline-block;
+  /* margin-left: 50px; */
+  position: relative;
+  left: 15%;
+  top: 1%;
+}
+
+.cardinfo {
+  display: inline-block;
+  /* margin-left: 50px; */
+  /* position: relative; */
+  /* left:40%; */
+  /* top:1%; */
+  width: 40%;
+  padding: 0px;
+}
+
+.resultimg {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 0px;
+  left: 46%;
+  position: relative;
+}
+
+.happytop {
+  /* background-color: yellow; */
+  position: absolute;
+  /* top: 10%;   */
+  padding: 30px;
+  padding-top: 200px;
+  top:0%;
+  left:15%;
+  color:rgb(0, 0, 0);
+  font-weight: 800;
+  font-family: 'Jost', sans-serif;
+  font-size:100px;
+}
+
+.resultimg{
+    height:10px;
+    width:10px;
+}
+
+.resulttitle{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
 }
