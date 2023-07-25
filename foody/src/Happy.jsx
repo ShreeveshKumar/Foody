@@ -20,6 +20,23 @@ const secondcard = {
   imgalt: "imageofcake",
 };
 
+const thirdcard = {
+  name: "Rasgulla",
+  description: "Experience the Magical Flavors of Soft Sweetness",
+  body: "The magic lies in the meticulous blend of traditional rasgulla essence and modern baking techniques. The result is a masterpiece that not only satisfies your cravings but also transports you to a world of delightful wonder.",
+  imglink:
+    "https://media.istockphoto.com/id/495022082/photo/indian-sweet-rasgulla-is-a-syrupy-dessert-indian-cottage-cheese.webp?b=1&s=612x612&w=0&k=20&c=TSpoDZ-UUnja-OnuoIPDNE_fpVJjmFVAmDAy7dv9slw=",
+  imgalt: "imageofrasgulla",
+};
+
+const fourthcard = {
+  name: "Apple",
+  description: "Your Mood-Boosting Superfruit",
+  body: "Crunch into a juicy apple and feel your spirits soar! Nature's delightful gift, the apple, is not only a savior for your taste buds but also a secret weapon for mood-boosting magic. Packed with natural goodness, every bite of this vibrant superfruit sparks joy and refreshes your senses. So, take a wholesome and delicious journey to a happier you with the magnificent apple! 🍎🌞🌈",
+  imglink: "https://openclipart.org/image/600px/168476",
+  imgalt: "imageofapple",
+};
+
 function Happy() {
   return (
     <div>
@@ -38,6 +55,21 @@ function Happy() {
         body={secondcard.body}
         imglink={secondcard.imglink}
         imgalt={secondcard.imgalt}
+      />
+      <Card
+        name={thirdcard.name}
+        description={thirdcard.description}
+        body={thirdcard.body}
+        imglink={thirdcard.imglink}
+        imgalt={thirdcard.imgalt}
+      />
+
+      <Card
+        name={fourthcard.name}
+        description={fourthcard.description}
+        body={fourthcard.body}
+        imglink={fourthcard.imglink}
+        imgalt={fourthcard.imgalt}
       />
     </div>
   );
@@ -61,6 +93,9 @@ function Result() {
 function Card(props) {
   return (
     <div>
+      {/* <div className="preview">
+        <button className="cardpreview">Share</button>
+      </div> */}
       <div className="card">
         <div className="cardinfo">
           <h1 className="cardname">{props.name}</h1>
@@ -74,10 +109,7 @@ function Card(props) {
           </a>
         </div>
         <div className="cardimg">
-          <img
-            src={props.imglink}
-            alt={props.imgalt}
-          />
+          <img src={props.imglink} alt={props.imgalt} />
         </div>
       </div>
     </div>
