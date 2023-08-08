@@ -23,11 +23,11 @@
   text-decoration: none;
   display: inline-block;
   position: relative;
-  top: 70%;
+  /* top: 40%; */
   left: 45%;
   font-family: "Quicksand", sans-serif;
-  margin: 30px;
-  margin-top: 70px;
+  /* margin: 30px; */
+  /* margin-top: 30px; */
 }
 
 .resultshare:hover {
@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-.card {
+.scard {
   /* padding:500px; */
   background-color: rgb(211, 212, 211);
   margin: 200px;
@@ -44,7 +44,7 @@
   box-shadow: 21px 21px 21px 21px #cdb413;
 }
 
-.cardname {
+.scardname {
   display: inline-block;
 
   font-weight: 400;
@@ -52,7 +52,7 @@
   font-family: "Indie Flower", cursive;
 }
 
-.carddesc {
+.scarddesc {
   display: inline-block;
   /* margin-left: 50px; */
   /* font-family: 'Indie Flower', cursive;
@@ -61,7 +61,7 @@
   font-family: "Quicksand", sans-serif;
 }
 
-.cardbody {
+.scardbody {
   display: inline-block;
   /* margin-left: 50px;
     margin-top: 50px; */
@@ -75,17 +75,17 @@
   font-family: "Quicksand", sans-serif;
 }
 
-.card {
+.scard {
   padding: 50px;
   margin-top: 20%;
 }
 
-.cardlink {
+.scardlink {
   display: inline-block;
   font-family: "Quicksand", sans-serif;
 }
 
-.cardimg {
+.scardimg {
   display: inline-block;
   /* margin-left: 50px; */
   position: relative;
@@ -93,7 +93,7 @@
   top: 1%;
 }
 
-.cardinfo {
+.scardinfo {
   display: inline-block;
   /* margin-left: 50px; */
   /* position: relative; */
@@ -139,7 +139,7 @@
 }
 
 
-.cardpreview{
+.scardpreview{
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
@@ -159,7 +159,7 @@
   /* overflow:hidden ; */
 }
 
-.cardpreview:hover {
+.scardpreview:hover {
   background: #33a7f0;
   text-decoration: none;
 }
@@ -173,4 +173,65 @@
     /* margin-top:100px; */
     /* padding-top: 400px; */
     
+}
+
+
+
+
+@media screen and (width<=720px){
+
+
+.resultbody{
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  /* justify-content: space-between; */ 
+}
+
+.resultshare{
+  /* display: flex; */
+  justify-content: center;
+  left:25%;
+  top:2%;
+  bottom:5%;
+}
+
+.scard{
+  left: 0%;
+  margin: 0px;
+  padding: 0px;
+  margin-top:150px;
+  box-shadow: none;
+}
+.scardimg{
+  left:0;
+  width:200px;
+}
+img{
+  width:400px;
+  height:400px;
+}
+
+/* .cardname{
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  justify-content: space-between; 
+  margin-left: 85px;
+} */
+
+.scardinfo{
+  width:380px;
+  margin-left:10px; 
+}
+
+
+  .happytop{
+    /* width:100%; */
+    /* background-color: red; */
+    width:412px;
+    padding-left: 0px;
+    left:5%;
+  }
+  
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import Back from './Back'
 import './Sad.css'
 
+
+
 function Sad() {
   return (
     <div>
@@ -79,19 +81,19 @@ function Card({ name, description, body, imglink, imgalt }) {
       {/* <div className="preview">
         <button className="cardpreview">Share</button>
       </div> */}
-      <div className="card">
-        <div className="cardinfo">
-          <h1 className="cardname">{name}</h1>
+      <div className="scard">
+        <div className="scardinfo">
+          <h1 className="scardname">{name}</h1>
           <br />
-          <h2 className="carddesc">{description}</h2>
+          <h2 className="scarddesc">{description}</h2>
           <br />
-          <h3 className="cardbody">{body}</h3>
+          <h3 className="scardbody">{body}</h3>
           <br />
-          <a href="https://www.google.com/" className="cardlink" target="blank">
+          <a href="https://www.google.com/" className="scardlink" target="blank">
             <h2>Buy now </h2>
           </a>
         </div>
-        <div className="cardimg">
+        <div className="scardimg">
           <img src={imglink} alt={imgalt} />
         </div>
       </div>
