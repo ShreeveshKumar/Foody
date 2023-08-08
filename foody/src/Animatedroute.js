@@ -5,6 +5,8 @@ import Q1 from "./Q1";
 import Q2 from "./Q2";
 import Q3 from "./Q3"
 import Happy from "./Happy"
+import Sad from './Sad';
+import Neutral from './Neutral'
 import {
   Route,
   Routes,
@@ -23,6 +25,8 @@ const Animatedroute = () => {
         <Route exact path="/Q1/Q2" element={<Q2 />} />
         <Route exact path="Q1/Q2/Q3" element={<Q3 />} />
         <Route exact path="Q1/Q2/Q3/Happy" element={<Happy />} />
+        <Route exact path="Q1/Q2/Q3/Sad" element={<Sad />} />
+        <Route exact path="Q1/Q2/Q3/Neutral" element={<Neutral />} />
       </Routes>
     </AnimatePresence>
   );
