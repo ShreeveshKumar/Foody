@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <section className="maintitle">Foodie</section>
-      
+           
     </div>
   );
 };

@@ -365,7 +365,7 @@ video{
 .title2a{
   font-size: 30px;
   margin: 0px;
-  left: 0%;
+  left: 10%;
   margin-top: 15px;
   margin-left:10px;
 }
@@ -373,17 +373,19 @@ video{
 .title2b{
   font-size: 30px;
   margin: 0px;
-  left: 0%;
+  left: 10%;
   margin-left: 50px;
   right: 0%;
   display: inline-block;
+  margin-right: 0%;
+  right: 0%;
   
 }
 
 
 .answer1{
   font-size: 20px;
-  left: 0%;
+  left: 10%;
   top: 50%;
   margin-left: 27px;
   margin-top: 0px;
@@ -396,7 +398,7 @@ video{
 
 .btn{
   top:70%;
-  left: 15%;
+  left: 25%;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -408,7 +410,7 @@ video{
   width:200px;
 }
 
-.maintitle{
+.Navbar maintitle{
   width: 200px;
 }
 }

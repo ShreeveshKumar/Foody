@@ -1,27 +1,24 @@
-/* Basic reset to remove default margins and paddings */
 body, div, img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Define the container for the image grid */
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(6, 300px); /* Four images in each row, each image is 300px wide */
-  grid-gap: 20px; /* Adjust this value for spacing between images */
+  grid-template-columns: repeat(6, 300px); 
+  grid-gap: 20px; 
   background-color: yellow;
 }
 
-/* Style the images within the grid */
 .image-grid img {
-  width: 100%; /* Make sure each image takes up the entire column width */
-  height: auto; /* Maintain the aspect ratio of the images */
+  width: 100%; 
+  height: auto; 
 }
 .image-grid img {
-  width: 100%; /* Make sure each image takes up the entire column width */
-  height: auto; /* Maintain the aspect ratio of the images */
-  opacity: 0.7; /* Change the opacity value (0 to 1) to control the opacity of each image */
+  width: 100%; 
+  height: auto; 
+  opacity: 0.7; 
   filter: brightness(1);
 }
 
