@@ -7,7 +7,7 @@ import './Sad.css'
 function Sad() {
   return (
     <div>
-      <Back />
+      <Back className = "cookingfood" />
       <Result />
       {foodsad.map((cook => {
         return (

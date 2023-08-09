@@ -1,0 +1,147 @@
+.radio2answer1{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:30%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+
+}
+
+.radio2answer1:hover{
+  border: 2px solid #08659e;
+  /* border-bottom: 5px solid #08659e; */
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+.radio2answer2{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:50%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+
+}
+
+.radio2answer2:hover{
+  border: 2px solid #08659e;
+  /* border-bottom: 5px solid #08659e; */
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+.radio2answer3{
+  color: #e5e7e9;
+  position: absolute;
+  font-size: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top:70%;
+  left: 70%;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding:40px;
+  width:400px;
+  border-radius: 10px;
+
+}
+
+.radio2answer3:hover{
+  border: 2px solid #08659e;
+  /* border-bottom: 5px solid #08659e; */
+  box-shadow: 0px 5px 0px 0px #08659e;
+  cursor: pointer;
+}
+
+
+
+.radio2btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ebebeb;
+  font-size: 20px;
+  background: #08659e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.radio2btn:hover {
+  background: #33a7f0;
+  text-decoration: none;
+}
+
+.radio111question{
+  top:10%;
+  position: absolute;
+  color: #e5e7e9;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-left:20px;
+  border-left: 5px solid #08659e;
+
+
+}
+
+
+.Q1btn{
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ebebeb;
+  font-size: 20px;
+  background: #08659e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.Q1btn:hover {
+  background: #33a7f0;
+  text-decoration: none;
+}
+
+
+@media screen and (width<=767px)  {
+    .radio111question{
+        top: 10%;
+        font-size: 20px;
+        width:380px;
+        margin-left:10px;
+    }
+
+    .maintitle{
+        margin: 0px;
+        width:400px;
+    }
+
+
+
+}

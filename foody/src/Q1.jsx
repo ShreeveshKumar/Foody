@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Video from './Video'
-import './Home.css'
+// import './Home.css'
 // import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion"
+import './Q1.css'
 
 const Body = () => {
   return (
-    <div>
-      <section className="radio1question">
+    <div className='Q1up'>
+      <section className="radio111question">
         <h1>On a scale of 1 to 10, how would you rate your current mood?</h1>
       </section>
 

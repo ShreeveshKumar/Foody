@@ -12,18 +12,18 @@ function Q3() {
     <div>
       <Video /> 
       <Navbar />
-      <section className="radio1question">
+      <section className="radio333question">
         <h1>Are you feeling motivated / demotivated today?</h1>
       </section>
 
-      <section className="radio3answer1">
+      <section className="radio333answer1">
         <input type="radio" name="taste" id="salt-radio" />
         <label for="salt-radio" className="salt-radio">
           Motivated
         </label>
       </section>
 
-      <section className="radio3answer2">
+      <section className="radio333answer2">
         <input type="radio" name="taste" id="spicy-radio" />
         <label for="spicy-radio" className="spicy-radio">
           Demotivated
@@ -36,7 +36,7 @@ function Q3() {
         <ArrowCircleRightIcon />
       </section> */}
       <Link to="/q1/q2/q3/happy">
-        <button className="btn">Next</button>
+        <button className="btn333">Next</button>
       </Link>
     </div>
   );

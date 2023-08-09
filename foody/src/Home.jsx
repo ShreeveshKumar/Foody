@@ -64,7 +64,7 @@ function Home() {
     animate={{opacity:1}}
     exit={{opacity:0, transition:1}}
     >
-      <Navbar />
+      <Navbar className="navibars"/>
       <Body />
       <Video />
     </motion.div>

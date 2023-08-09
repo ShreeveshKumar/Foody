@@ -178,7 +178,7 @@
 
 
 
-@media screen and (width<=720px){
+@media screen and (width<=767px){
 
 
 .resultbody{
@@ -212,13 +212,13 @@ img{
   height:400px;
 }
 
-/* .cardname{
+.cardname{
   font-size: 80px;
   font-weight: 100;
   text-align: center;
   justify-content: space-between; 
   margin-left: 85px;
-} */
+}
 
 .scardinfo{
   width:380px;
@@ -234,4 +234,19 @@ img{
     left:5%;
   }
   
+
+  .cookingfood{
+    width:400px;
+    background-color: red;
+    left:5%;
+    display: none;
+
+  }
+
+  .image-grid{
+    /* display: none; */
+    width: 400px;
+    /* height: 400px; */
+    size: 400px;
+  }
 }

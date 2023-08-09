@@ -3,15 +3,13 @@ import Navbar from "./Navbar";
 import Video from "./Video";
 import "./Q2.css";
 import { Link } from "react-router-dom";
-// import Q3 from "./Q3";
-// import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
-// import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+
 
 const Body = () => {
   return (
-    <div>
-      <section className="radio1question">
+    <div className="radio222up">
+      <section className="radio222question">
         <h1>
           How would you describe
           <br /> your energy level at the <br />
@@ -19,29 +17,29 @@ const Body = () => {
         </h1>
       </section>
 
-      <section className="radio2answer1">
+      <section className="radio222answer1">
         <input type="radio" name="taste" id="sweet-radio" />
-        <label for="sweet-radio" className="sweet-radio">
+        <label for="sweet-radio" className="energy-radio">
           Energetic
         </label>
       </section>
 
-      <section className="radio2answer2">
+      <section className="radio222answer2">
         <input type="radio" name="taste" id="bitter-radio" />
-        <label for="bitter-radio" className="bitter-radio">
+        <label for="bitter-radio" className="normal-radio">
           Normal
         </label>
       </section>
 
-      <section className="radio2answer3">
+      <section className="radio222answer3">
         <input type="radio" name="taste" id="umami-radio" />
-        <label for="umami-radio" className="unami-radio">
+        <label for="umami-radio" className="drained-radio">
           Drained out
         </label>
       </section>
 
       <Link to="/q1/q2/q3">
-        <button className="radio2btn">Next</button>
+        <button className="radio222btn">Next</button>
       </Link>
     </div>
   );
