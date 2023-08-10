@@ -118,7 +118,7 @@
   display: inline-block;
   position: absolute;
   top: 90%;
-  left: 80%;
+  left: 90%;
   font-family: 'Quicksand', sans-serif;
   
 }
@@ -129,12 +129,66 @@
 }
 
 
+  .circle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    top:60%;
+    position: absolute;
+    left:10%;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* background-color: #3498db; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border:2px solid white;
+    color: white;
+  }
+  .circle:hover{
+    border: 2px solid #08659e;
+    /* border-bottom: 5px solid #08659e; */
+    /* box-shadow: 0px 5px 0px 0px #08659e; */
+    cursor: pointer;
+  }
+
+  .circlet:hover{
+    border: 2px solid #08659e;
+    /* border-bottom: 5px solid #08659e; */
+    /* box-shadow: 0px 5px 0px 0px #08659e; */
+    cursor: pointer;
+  }
+
+  .circlet{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* background-color: #3498db; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border:2px solid white;
+    color: white;
+  }
+
+
+
+
 @media screen and (width<=767px)  {
     .radio111question{
         top: 10%;
         font-size: 20px;
         width:380px;
-        margin-left:10px;
+        margin-left:1px;
+        padding-left: 5px;
     }
 
     .maintitle{
@@ -142,6 +196,29 @@
         width:400px;
     }
 
+   .circle-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 500px; /* Set a maximum height to create a second column */
+  top:30%;
+
+   }
+
+   .circle {
+  border: 1px solid #ccc; /* Add borders for visualization */
+  padding: 10px;
+  box-sizing: border-box;
+  width: 50%; /* Half width to create two columns */
+  height:50px;
+  width:50px;
+}
+
+
+.Q1btn{
+  top:75%;
+  left:80%;
+}
 
 
 }

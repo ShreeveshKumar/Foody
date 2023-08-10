@@ -7,9 +7,9 @@ import './Sad.css'
 function Sad() {
   return (
     <div>
-      <Back className = "cookingfood" />
+      <Back className="cookingfood" />
       <Result />
-      {foodsad.map((cook => {
+      {foodsad.map((cook) => {
         return (
           <Card
             name={cook.name}
@@ -18,24 +18,25 @@ function Sad() {
             imglink={cook.imglink}
             imgalt={cook.imgalt}
           />
-        )
-      }))}
+        );
+      })}
+      <button className="resultshare">Share</button>
     </div>
-  )
+  );
 }
 
 function Result() {
   return (
-    <div className="happytop">
-      <h2 className="result">YOUR RESULTS</h2>
-      <h2 className="resulttitle">SAD</h2>
+    <div className="sadtop">
+      <h2 className="sresult">YOUR RESULTS</h2>
+      <h2 className="sresulttitle">SAD</h2>
       {/* <img src={Laugh} alt="laughing" className="resultimg" /> */}
-      <h3 className="resultbody">
+      <h3 className="sresultbody">
         Indulge in these happiness-boosting foods to take your <br />
         joyful mood from great to even greaterEmbrace joy with heartwarming
         gestures, turning sadness to smiles in heartening moments of connection.
       </h3>
-      <button className="resultshare">Share</button>
+      
     </div>
   );
 }
@@ -89,15 +90,22 @@ function Card({ name, description, body, imglink, imgalt }) {
           <br />
           <h3 className="scardbody">{body}</h3>
           <br />
-          <a href="https://www.google.com/" className="scardlink" target="blank">
+          <a
+            href="https://www.google.com/"
+            className="scardlink"
+            target="blank"
+          >
             <h2>Buy now </h2>
           </a>
         </div>
         <div className="scardimg">
           <img src={imglink} alt={imgalt} />
         </div>
+        
+          <button className='button1000'> 🎞️ PREVIEW </button>
+        </div>
       </div>
-    </div>
+    
   );
 }
 

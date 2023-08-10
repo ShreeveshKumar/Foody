@@ -1,7 +1,8 @@
-import React from 'react'
-import Back from './Back'
+import React from "react";
+import Back from "./Back";
 // import Back from './Back'
 // import _ from "lodash";
+import "./Neutral.css";
 
 const card = [
   {
@@ -63,22 +64,66 @@ const card = [
     body: "Ice cream, the perfect treat for a happy day, is a delightful dessert that can instantly lift your spirits. A scoop of this creamy delight is all you need to feel happy and energized. So, indulge in a sweet and refreshing ice cream and let your worries melt away!",
     imglink: "https://openclipart.org/image/600px/322326",
     imgalt: "Icecream_image",
-  }
+  },
 ];
-
-
-
 
 function Neutral() {
   return (
     <div>
-        <Back />
-        {/* {const randomSelection = _.sampleSize(food, 5); */}
-        {/* } */}
+      <Back />
+      <Neut />
+      {card.map((cooknet) => {
+        return(
+          <Ndis name={cooknet.name} description={cooknet.description} body={cooknet.body} imglink={cooknet.imglink} imgalt={cooknet.imgalt} />
+        )
+      })};
     </div>
-  )
+  )};
+
+function Neut(){
+  return (
+    <div className="neutraltop">
+      <h2 className="nresult">YOUR RESULTS</h2>
+      <h2 className="nresulttitle">NEUTRAL</h2>
+      {/* <img src={Laugh} alt="laughing" className="resultimg" /> */}
+      <h3 className="nresultbody">
+        Explore these mood-balancing foods to maintain your emotional
+        equilibrium and foster a sense of calm. Embrace moments of connection
+        and warmth, transforming neutral feelings into gentle smiles through
+        heartfelt gestures of joy.
+      </h3>
+      {/* <button className="nresultshare">Share</button> */}
+    </div>
+  );
+};
+
+
+
+function Ndis({name, description, body, imglink, imgalt}) {
+  return (
+    <div>
+      
+      <div className="ncard">
+        <div className="ncardinfo">
+          <h1 className="ncardname">{name}</h1>
+          <br />
+          <h2 className="ncarddesc">{description}</h2>
+          <br />
+          <h3 className="ncardbody">{body}</h3>
+          <br />
+          <a
+            href="https://www.google.com/"
+            className="scardlink"
+            target="blank"
+          >
+            <h2>Buy now </h2>
+          </a>
+        </div>
+        <div className="ncardimg">
+          <img src={imglink} alt={imgalt} />
+        </div>
+      </div>
+    </div>
+  );
 }
-
-
-
-export default Neutral
+export default Neutral;

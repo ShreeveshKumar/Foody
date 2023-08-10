@@ -1,10 +1,10 @@
-.result {
+.sresult {
   font-size: 15px;
   font-weight: 100;
   text-align: center;
 }
 
-.resultbody {
+.sresultbody {
   font-size: 60px;
   font-weight: 100;
   text-align: center;
@@ -112,7 +112,7 @@
   position: relative;
 }
 
-.happytop {
+.sadtop {
   /* background-color: yellow; */
   position: absolute;
   /* top: 10%;   */
@@ -126,14 +126,14 @@
   font-size:100px;
 }
 
-.resultimg{
+.sresultimg{
     height:10px;
     width:10px;
 }
 
-.resulttitle{
+.sresulttitle{
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 1000;
     text-align: center;
     font-family: 'Jost', sans-serif;
 }
@@ -175,20 +175,32 @@
     
 }
 
+.button1000{
+  background-color: grey;
+  color:black;
+  border-radius: 2;
+  width: 104px;
+  height: 54px;
+  display: inline-block;
+  position: relative;
+  left:12%;
+}
+
 
 
 
 @media screen and (width<=767px){
 
 
-.resultbody{
+.sresultbody{
   font-size: 30px;
   font-weight: 100;
   text-align: center;
+  width:350px;
   /* justify-content: space-between; */ 
 }
 
-.resultshare{
+.sresultshare{
   /* display: flex; */
   justify-content: center;
   left:25%;
@@ -212,7 +224,7 @@ img{
   height:400px;
 }
 
-.cardname{
+.scardname{
   font-size: 80px;
   font-weight: 100;
   text-align: center;
@@ -226,12 +238,12 @@ img{
 }
 
 
-  .happytop{
+  .sadtop{
     /* width:100%; */
     /* background-color: red; */
-    width:412px;
+    width:375px;
     padding-left: 0px;
-    left:5%;
+    
   }
   
 
@@ -248,5 +260,10 @@ img{
     width: 400px;
     /* height: 400px; */
     size: 400px;
+  }
+  
+  .sresult{
+    margin-top: 0px;
+    padding-top: 0px;
   }
 }

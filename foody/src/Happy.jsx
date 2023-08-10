@@ -55,6 +55,8 @@ function Happy() {
         /> 
         )
       })}
+
+      <button className="resultshare">Share</button>
     </div>
   );
 }
@@ -69,7 +71,7 @@ function Result() {
         Indulge in these happiness-boosting foods to take your <br />
         joyful mood from great to even greater!
       </h3>
-      <button className="resultshare">Share</button>
+      
     </div>
   );
 }

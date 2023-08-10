@@ -26,3 +26,19 @@ body{
     margin: 5px;
     /* background-color: yellow ; */
 }
+
+
+@media screen and (width<=767px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 160px); 
+  }
+
+  
+ 
+  .half-image:nth-child(n + 7) {
+    display: none;
+    }
+
+
+
+}

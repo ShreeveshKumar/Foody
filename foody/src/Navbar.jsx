@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "./share.png";
+import './Navbar.css'
 // import Video from "./Video";
 // const img = require("./share.png");
 
