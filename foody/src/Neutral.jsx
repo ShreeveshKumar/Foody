@@ -73,12 +73,19 @@ function Neutral() {
       <Back />
       <Neut />
       {card.map((cooknet) => {
-        return(
-          <Ndis name={cooknet.name} description={cooknet.description} body={cooknet.body} imglink={cooknet.imglink} imgalt={cooknet.imgalt} />
-        )
-      })};
+        return (
+          <Ndis
+            name={cooknet.name}
+            description={cooknet.description}
+            body={cooknet.body}
+            imglink={cooknet.imglink}
+            imgalt={cooknet.imgalt}
+          />
+        );
+      })}
+      ;<button className="nresultshare">Share</button>
     </div>
-  )};
+  );};
 
 function Neut(){
   return (
@@ -92,7 +99,7 @@ function Neut(){
         and warmth, transforming neutral feelings into gentle smiles through
         heartfelt gestures of joy.
       </h3>
-      {/* <button className="nresultshare">Share</button> */}
+      
     </div>
   );
 };
@@ -102,7 +109,6 @@ function Neut(){
 function Ndis({name, description, body, imglink, imgalt}) {
   return (
     <div>
-      
       <div className="ncard">
         <div className="ncardinfo">
           <h1 className="ncardname">{name}</h1>
@@ -117,6 +123,9 @@ function Ndis({name, description, body, imglink, imgalt}) {
             target="blank"
           >
             <h2>Buy now </h2>
+          </a>
+          <a href="https://www.google.com/" className="ncardar" target="blank">
+            <h2>PREVIEW</h2>
           </a>
         </div>
         <div className="ncardimg">

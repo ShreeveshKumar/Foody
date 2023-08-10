@@ -38,7 +38,8 @@
 .scard {
   /* padding:500px; */
   background-color: rgb(211, 212, 211);
-  margin: 200px;
+  margin: 50px;
+  
   border-radius: 10px;
   /* border-shadow:1px solid red 10px 10px 10px 10px; */
   box-shadow: 21px 21px 21px 21px #cdb413;
@@ -77,7 +78,7 @@
 
 .scard {
   padding: 50px;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 
 .scardlink {
@@ -93,6 +94,11 @@
   top: 1%;
 }
 
+.scardar{
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 20px;
+}
 .scardinfo {
   display: inline-block;
   /* margin-left: 50px; */

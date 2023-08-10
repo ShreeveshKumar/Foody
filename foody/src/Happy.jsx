@@ -97,6 +97,7 @@ function Card({ name, description, body, imglink, imgalt }) {
           <a href="https://www.google.com/" className="cardlink" target="blank">
             <h2>Buy now </h2>
           </a>
+          <a href="https://www.google.com/" className="hcardar" target="blank"><h2>PREVIEW</h2></a>
         </div>
         <div className="cardimg">
           <img src={imglink} alt={imgalt} />

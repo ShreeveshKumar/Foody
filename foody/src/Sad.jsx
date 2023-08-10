@@ -97,15 +97,17 @@ function Card({ name, description, body, imglink, imgalt }) {
           >
             <h2>Buy now </h2>
           </a>
+          <a href="https://www.google.com/" className="scardar" target="blank">
+            <h2>PREVIEW</h2>
+          </a>
         </div>
         <div className="scardimg">
           <img src={imglink} alt={imgalt} />
         </div>
-        
-          <button className='button1000'> 🎞️ PREVIEW </button>
-        </div>
+
+        <button className="button1000"> 🎞️ PREVIEW </button>
       </div>
-    
+    </div>
   );
 }
 

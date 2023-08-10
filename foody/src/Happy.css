@@ -82,6 +82,11 @@
   display: inline-block;
   font-family: "Quicksand", sans-serif;
 }
+.hcardar{
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 20px;
+}
 
 .cardimg {
   display: inline-block;
@@ -131,7 +136,7 @@
 
 .resulttitle {
   font-size: 30px;
-  font-weight: 100;
+  font-weight: 1000;
   text-align: center;
   font-family: "Jost", sans-serif;
 }

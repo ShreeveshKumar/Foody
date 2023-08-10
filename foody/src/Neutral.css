@@ -71,7 +71,7 @@
   margin: 200px;
   border-radius: 10px;
   /* border-shadow:1px solid red 10px 10px 10px 10px; */
-  box-shadow: 21px 21px 21px 21px #cdb413;
+  box-shadow: 21px 21px 21px 21px #3f3f3e;
 }
 
 .ncardname {
@@ -107,7 +107,7 @@
 
 .ncard {
   padding: 50px;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .ncardlink {
@@ -123,6 +123,11 @@
   top: 1%;
 }
 
+.ncardar{
+  display: inline-block;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 20px;
+}
 .ncardinfo {
   display: inline-block;
   /* margin-left: 50px; */
