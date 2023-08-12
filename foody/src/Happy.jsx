@@ -63,7 +63,7 @@ function Happy() {
 
 function Result() {
   return (
-    <div className="happytop">
+    <div className="hhappytop">
       <h2 className="result">YOUR RESULTS</h2>
       <h2 className="resulttitle">HAPPY</h2>
       {/* <img src={Laugh} alt="laughing" className="resultimg" /> */}

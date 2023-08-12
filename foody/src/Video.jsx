@@ -1,10 +1,11 @@
 import React from 'react'
 import commercial from "./commercial.mp4";
-import './Home.css'
+// import './Home.css'
+import './Video.css'
 
 function Video() {
   return (
-    <div>
+    <div className='backcover'>
       <video src={commercial} autoPlay loop muted />
     </div>
   )

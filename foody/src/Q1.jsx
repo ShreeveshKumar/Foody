@@ -27,7 +27,7 @@ const Body = () => {
       </div>
 
       <Link to="/q1/q2">
-        <button className="Q1btn">🡲</button>
+        <button className="Q1btn">Next</button>
       </Link>
     </div>
   );

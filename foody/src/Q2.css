@@ -94,15 +94,13 @@
 
 
 .radio222question{
-  top:20%;
+  top:10%;
   position: absolute;
   color: #e5e7e9;
-  font-size: 70px;
+  font-size: 50px;
   font-family: 'Poppins', sans-serif;
   margin-left:10px;
   border-left: 5px solid #08659e;
-
-
 }
 
 .Q1up{

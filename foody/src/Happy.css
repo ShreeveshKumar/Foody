@@ -115,18 +115,19 @@
   position: relative;
 }
 
-.happytop {
+.hhappytop {
   /* background-color: yellow; */
   position: absolute;
   /* top: 10%;   */
   padding: 30px;
   padding-top: 200px;
   top: 0%;
-  left: 15%;
+  left: 10%;
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-family: "Jost", sans-serif;
   font-size: 100px;
+  right: 10%;
 }
 
 .resultimg {
@@ -222,7 +223,7 @@
     margin-left: 10px;
   }
 
-    .happytop {
+    .hhappytop {
       width:fit-content;
        /* background-color: red;   */
      flex-direction: column;   

@@ -104,8 +104,6 @@ function Card({ name, description, body, imglink, imgalt }) {
         <div className="scardimg">
           <img src={imglink} alt={imgalt} />
         </div>
-
-        <button className="button1000"> 🎞️ PREVIEW </button>
       </div>
     </div>
   );
