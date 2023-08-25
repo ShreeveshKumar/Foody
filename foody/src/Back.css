@@ -6,7 +6,7 @@ body, div, img {
 
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(6, 300px); 
+  grid-template-columns: repeat(6, 235px); 
   grid-gap: 20px; 
   background-color: yellow;
 }

@@ -9,7 +9,7 @@
   display: inline-block;
   border: 1px solid #e7e7e7;
   padding:40px;
-  width:400px;
+  width:300px;
   border-radius: 10px;
 
 }
@@ -32,7 +32,7 @@
   display: inline-block;
   border: 1px solid #e7e7e7;
   padding:40px;
-  width:400px;
+  width:300px;
   border-radius: 10px;
 
 }
@@ -55,7 +55,7 @@
   display: inline-block;
   border: 1px solid #e7e7e7;
   padding:40px;
-  width:400px;
+  width:300px;
   border-radius: 10px;
 
 }
@@ -108,13 +108,13 @@
 }
 
 .energy-radio{
-  margin-left:150px;
+  margin-left:100px;
 }
 .normal-radio{
-  margin-left: 150px;
+  margin-left: 100px;
 }
 .drained-radio{
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 @media screen and (width<=767px)  {
