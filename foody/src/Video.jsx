@@ -6,7 +6,7 @@ import './Video.css'
 function Video() {
   return (
     <div className='backcover'>
-      <video src={commercial} autoPlay loop muted />
+      <video src={commercial} autoPlay loop muted controls loading="lazy" />
     </div>
   )
 }
