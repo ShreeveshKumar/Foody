@@ -1,3 +1,9 @@
+body{
+  width:100vw;
+  height:100vh;
+}
+
+
 .navbar{
     list-style: none;
     display: flex;
@@ -50,7 +56,7 @@
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   display: inline-block;
-  position: absolute;
+  /* position: absolute; */
   top: 70%;
   left: 45%;
   font-family: 'Quicksand', sans-serif;
@@ -126,60 +132,27 @@ video{
 
 
 .title1{
-  font-family: 'Indie Flower', cursive;
-  position: absolute;
   justify-content: center;
-  margin-left: 42%;
-  top:15%;
   font-family: 'Jost', sans-serif;
-}
-
-
-.title2{
-  /* font-family: 'Indie Flower', cursive; */
-  position: absolute;
-  justify-content: center;
-  margin-left: 42%;
-  top:30%;
-  /* font-family: 'Poppins', sans-serif;
-   */
-  font-size: 40px;
-  font-family: 'Inter', sans-serif;
-}
-
-
-.title2a{
-  position: absolute;
   display: inline-block;
-  font-size: 100px;
+  position: absolute;
+  top: 4.3rem;
   
-  top:20%;
-  left:22%;
-  font-family: 'Poppins', sans-serif;
-
 }
 
-.title2b{
-  position: absolute;
-  display: inline-block;
-  top:30%;
-  left:27%;
-  font-size: 100px;
-  font-family: 'Poppins', sans-serif;
-
+.title1_parent{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute; */
 }
 
 
-.answer1{
-  position: absolute;
-  display: inline-block;
-  top:60%;
-  left:32%;
-  font-size: 20px;
-  color: #e5e7e9;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
+
+
+
 
 
 
@@ -198,8 +171,8 @@ video{
   font-family: 'Poppins', sans-serif;
   margin-left:20px;
   border-left: 5px solid #08659e;
-
-
+  
+  
 }
 
 
@@ -329,11 +302,11 @@ video{
 }
 
 .nextradio{
-   background-color: #08659e;
-   display: inline-block;
-   position: absolute;
-   top:80%;
-   height: 30px;
+  background-color: #08659e;
+  display: inline-block;
+  position: absolute;
+  top:80%;
+  height: 30px;
 }
 
 
@@ -342,52 +315,121 @@ video{
   top:10%;
 }
 
-
-
-@media screen and (width<=700px){
-  .title1{
-    left:20%;
-    margin-left: 0%;
-    justify-content: center ;
-    font-size: 20px;
-  }
-
-.title2a{
-  font-size: 30px;
-  margin: 0px;
-  left: 10%;
-  margin-top: 15px;
-  margin-left:10px;
-}
-
-.title2b{
-  font-size: 30px;
-  margin: 0px;
-  left: 10%;
-  margin-left: 50px;
-  right: 0%;
-  display: inline-block;
-  margin-right: 0%;
-  right: 0%;
+.title2{
+  left:0px;
+  margin:0px;
+  padding:0px;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 50px;
+  flex-wrap: wrap;
+  top:0px;
+  position: absolute;
+  top:7rem;
   
 }
 
-
-.answer1{
-  font-size: 20px;
-  left: 0%;
-  top: 50%;
-  /* margin-left: 27px; */
-  margin-top: 0px;
-  /* text-justify: distribute; */
-  padding-left: 10px;
-  padding-right: 20px;
-  width:400px;
-  margin-left: 0px;
-  /* margin-right:45px; */
-  font-style: italic;
+.title2a{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+}
+.title2b{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  
 }
 
+.answer_1_parent{
+  font-size: 20px;
+  color: #e5e7e9;
+  font-family: 'Quicksand', sans-serif;
+  font-size:20px;
+  padding: 50px;
+  margin-top: 10rem;
+}
+.answer1{
+
+  /* width:30rem;
+  position: relative;
+  margin-top:5rem;
+  margin-left:30rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap; */
+  
+}
+
+.parent1_button{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ebebeb;
+  font-size: 20px;
+  background: #08659e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  /* position: absolute; */
+  top: 70%;
+  left: 45%;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.btn:hover {
+  background: #33a7f0;
+  text-decoration: none;
+}
+
+
+
+@media screen and (width<=700px){
+  .title1_parent{
+    font-size: 0.5rem;
+    
+  }
+
+.title2{
+  font-size: 1.5em;
+  left:0;
+}
+
+
+
+
+/* .answer1{
+  font-size: 1em;
+  margin-left:0;
+  width:100%vw;
+  padding:50px;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+
+/* 
 
 .btn{
   top:70%;
@@ -397,7 +439,7 @@ video{
   text-decoration: none;
 
 
-}
+} */
 
 .nav{
   width:200px;

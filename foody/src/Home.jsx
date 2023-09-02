@@ -35,24 +35,36 @@ const Body = () => {
       <section className="element2">
         <ShareIcon />
       </section>
+
+      <div className="title1_parent">
       <h2 className="title1">Reflect on your cravings </h2>
+      </div>
 
-      {/* <section className="title2"> */}
+<br />
+
+      <section className="title2">
       <section className="title2a">What role does food </section>
+  
       <section className="title2b">play in your life ?</section>
-      {/* </section> */}
+      </section>
 
+    <div className="answer_1_parent">
       <section className="answer1">
         Take the first step toward understanding your relationship with food{" "}
-        <br /> and get suggestions and recipes to help nourish your mind and
+        and get suggestions and recipes to help nourish your mind and
         body.
       </section>
+</div>
+
+
+<div className="parent1_button">
       <Link to="/q1">
         <button className="btn" onClick={handleCopyLink}>
           Start experience
         </button>
-        {isCopied && <p>Link copied!</p>}
       </Link>
+      </div>
+
     </div>
   );
 };
