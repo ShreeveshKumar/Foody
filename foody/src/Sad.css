@@ -1,15 +1,17 @@
 .sresult {
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 15px;
+  font-weight: 200;
   text-align: center;
 }
 
 .sresultbody {
-  font-size: 35px;
+  font-size:1.5rem;
   font-weight: 100;
   text-align: center;
-  /* justify-content: space-between; */
+  padding:50px;
+  padding-top:0px; 
 }
+
 
 .resultshare {
   -webkit-border-radius: 10;
@@ -23,11 +25,8 @@
   text-decoration: none;
   display: inline-block;
   position: relative;
-  /* top: 40%; */
   left: 45%;
   font-family: "Quicksand", sans-serif;
-  /* margin: 30px; */
-  /* margin-top: 30px; */
 }
 
 .resultshare:hover {
@@ -36,18 +35,21 @@
 }
 
 .scard {
-  /* padding:500px; */
   background-color: rgb(211, 212, 211);
   margin: 50px;
-  
   border-radius: 10px;
-  /* border-shadow:1px solid red 10px 10px 10px 10px; */
   box-shadow: 21px 21px 21px 21px #cdb413;
+  padding: 50px;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:250px;
+  margin:150px;
 }
 
 .scardname {
   display: inline-block;
-
   font-weight: 400;
   font-size: 70px;
   font-family: "Indie Flower", cursive;
@@ -55,44 +57,29 @@
 
 .scarddesc {
   display: inline-block;
-  /* margin-left: 50px; */
-  /* font-family: 'Indie Flower', cursive;
-    font-family: 'Jost', sans-serif;
-    font-family: 'Poppins', sans-serif; */
   font-family: "Quicksand", sans-serif;
+  width:300px;
+  font-size: 1rem;
 }
 
 .scardbody {
   display: inline-block;
-  /* margin-left: 50px;
-    margin-top: 50px; */
   font-size: 20px;
   font-weight: 100;
-  /* text-align: center;  */
-  /* padding-right: 400px; */
   text-align: left;
-  /* width:40%; */
   text-align: justify;
   font-family: "Quicksand", sans-serif;
+  width:300px; 
 }
 
-.scard {
-  padding: 50px;
-  margin-top: 5%;
-}
+
 
 .scardlink {
   display: inline-block;
   font-family: "Quicksand", sans-serif;
 }
 
-.scardimg {
-  display: inline-block;
-  /* margin-left: 50px; */
-  position: relative;
-  left: 15%;
-  top: 1%;
-}
+
 
 .scardar{
   display: inline-block;
@@ -101,12 +88,7 @@
 }
 .scardinfo {
   display: inline-block;
-  /* margin-left: 50px; */
-  /* position: relative; */
-  /* left:40%; */
-  /* top:1%; */
-  width: 40%;
-  padding: 0px;
+  
 }
 
 .resultimg {
@@ -119,17 +101,18 @@
 }
 
 .sadtop {
-  /* background-color: yellow; */
   position: absolute;
-  /* top: 10%;   */
   padding: 30px;
-  padding-top: 100px;
   top:0%;
-  left:5%;
   color:rgb(0, 0, 0);
   font-weight: 800;
   font-family: 'Jost', sans-serif;
   font-size:100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100vw;
 }
 
 .sresultimg{
@@ -138,7 +121,7 @@
 }
 
 .sresulttitle{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 1000;
     text-align: center;
     font-family: 'Jost', sans-serif;
@@ -160,9 +143,6 @@
   top: 95%;
   left: 20%;
   font-family: "Quicksand", sans-serif;
-  /* margin: 30px; */
-  /* margin-top: 70px; */
-  /* overflow:hidden ; */
 }
 
 .scardpreview:hover {
@@ -174,11 +154,7 @@
 .preview{
     position: relative;
     display: inline-block;
-    /* top:90%; */
     left: 75%;
-    /* margin-top:100px; */
-    /* padding-top: 400px; */
-    
 }
 
 .button1000{
@@ -193,18 +169,29 @@
 }
 
 
+.scard{
+  display: flex;
+  /* background-color: red; */
+}
 
+
+.parent_sadfood{
+  width:450px;
+  height:450px;
+}
 
 @media screen and (width<=767px){
 
+  .parent_sadfood{
+    width:100vw;
+    height:50vh;
+    padding:20px;
+  }
 
 .sresultbody{
-  font-size: 25px;
-  font-weight: 100;
-  text-align: center;
-  width:350px;
-  /* justify-content: space-between; */ 
+  margin-top:0px;
 }
+
 
 .sresultshare{
   /* display: flex; */
@@ -218,8 +205,9 @@
   left: 0%;
   margin: 0px;
   padding: 0px;
-  margin-top:150px;
+  margin-top:50px;
   box-shadow: none;
+  width:100vw;
 }
 .scardimg{
   left:0;
@@ -230,28 +218,11 @@ img{
   height:400px;
 }
 
-.scardname{
-  font-size: 80px;
-  font-weight: 100;
-  text-align: center;
-  justify-content: space-between; 
-  margin-left: 85px;
-}
 
 .scardinfo{
   width:380px;
   margin-left:10px; 
 }
-
-
-  .sadtop{
-    /* width:100%; */
-    /* background-color: red; */
-    width:375px;
-    padding-left: 0px;
-    
-  }
-  
 
   .cookingfood{
     width:400px;
@@ -260,16 +231,13 @@ img{
     display: none;
 
   }
-
-  .image-grid{
-    /* display: none; */
-    width: 400px;
-    /* height: 400px; */
-    size: 400px;
-  }
   
   .sresult{
     margin-top: 0px;
     padding-top: 0px;
+  }
+
+  .sresultbody{
+       font-size: 1rem;
   }
 }

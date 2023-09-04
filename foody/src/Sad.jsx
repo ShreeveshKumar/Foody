@@ -27,6 +27,7 @@ function Sad() {
 
 function Result() {
   return (
+    <div className="parent_sadtop">
     <div className="sadtop">
       <h2 className="sresult">YOUR RESULTS</h2>
       <h2 className="sresulttitle">SAD</h2>
@@ -36,7 +37,7 @@ function Result() {
         joyful mood from great to even greaterEmbrace joy with heartwarming
         gestures, turning sadness to smiles in heartening moments of connection.
       </h3>
-      
+      </div>
     </div>
   );
 }
@@ -102,7 +103,7 @@ function Card({ name, description, body, imglink, imgalt }) {
           </a>
         </div>
         <div className="scardimg">
-          <img src={imglink} alt={imgalt} />
+          <img src={imglink} alt={imgalt} className='parent_sadfood'/>
         </div>
       </div>
     </div>
