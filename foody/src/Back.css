@@ -34,18 +34,17 @@ body, div, img {
 .image-grid1{
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly
+  justify-content:space-evenly;
+  background-color: rgb(241, 241, 7);
+
 }
 
 .image-grid2{
   display: flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
-  background-color: yellow;
+  background-color: rgb(239, 239, 7);
 }
-/* .parent_imggrid{
-  display: flex;
-} */
 
 
 
@@ -53,6 +52,7 @@ body, div, img {
   .image-grid1 img{
     width:fit-content;
     height: 100px;
+    /* filter: brightness(); */
   }
 
   .image-grid2 img{

@@ -27,7 +27,6 @@
   font-size: 30px;
   font-weight: 100;
   text-align: center;
-  /* justify-content: space-between; */
 }
 
 .nresultshare {
@@ -102,7 +101,6 @@
   padding: 50px;
   margin-top: 5%;
   display: flex;
-  /* justify-content:center ; */
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
@@ -149,11 +147,9 @@
   font-size: 1.2rem;
   font-weight: 100;
   text-align: center;
-  /* justify-content: space-between; */ 
 }
 
 .nresultshare{
-  /* display: flex; */
   justify-content: center;
   left:25%;
   top:2%;

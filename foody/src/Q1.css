@@ -2,8 +2,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:30%;
   left: 70%;
   display: inline-block;
@@ -16,7 +14,6 @@
 
 .radio2answer1:hover{
   border: 2px solid #08659e;
-  /* border-bottom: 5px solid #08659e; */
   box-shadow: 0px 5px 0px 0px #08659e;
   cursor: pointer;
 }
@@ -25,8 +22,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:50%;
   left: 70%;
   display: inline-block;
@@ -39,7 +34,6 @@
 
 .radio2answer2:hover{
   border: 2px solid #08659e;
-  /* border-bottom: 5px solid #08659e; */
   box-shadow: 0px 5px 0px 0px #08659e;
   cursor: pointer;
 }
@@ -48,8 +42,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:70%;
   left: 70%;
   display: inline-block;
@@ -62,7 +54,6 @@
 
 .radio2answer3:hover{
   border: 2px solid #08659e;
-  /* border-bottom: 5px solid #08659e; */
   box-shadow: 0px 5px 0px 0px #08659e;
   cursor: pointer;
 }
@@ -144,7 +135,6 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    /* background-color: #3498db; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,15 +144,11 @@
   }
   .circle:hover{
     border: 2px solid #08659e;
-    /* border-bottom: 5px solid #08659e; */
-    /* box-shadow: 0px 5px 0px 0px #08659e; */
     cursor: pointer;
   }
 
   .circlet:hover{
     border: 2px solid #08659e;
-    /* border-bottom: 5px solid #08659e; */
-    /* box-shadow: 0px 5px 0px 0px #08659e; */
     cursor: pointer;
   }
 
@@ -170,7 +156,6 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    /* background-color: #3498db; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,16 +185,16 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-height: 500px; /* Set a maximum height to create a second column */
+  max-height: 500px;
   top:40%;
 
    }
 
    .circle {
-  border: 1px solid #ccc; /* Add borders for visualization */
+  border: 1px solid #ccc; 
   padding: 10px;
   box-sizing: border-box;
-  width: 50%; /* Half width to create two columns */
+  width: 50%; 
   height:50px;
   width:50px;
 }

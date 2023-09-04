@@ -35,18 +35,15 @@
 }
 
 .card {
-  /* padding:500px; */
   background-color: rgb(211, 212, 211);
   margin: 200px;
   border-radius: 10px;
-  /* border-shadow:1px solid red 10px 10px 10px 10px; */
   box-shadow: 21px 21px 21px 21px #f03333;
   font-size: 50px;
 }
 
 .cardname {
   display: inline-block;
-
   font-weight: 400;
   font-size: 4em;
   font-family: "Indie Flower", cursive;
@@ -60,14 +57,9 @@
 
 .cardbody {
   display: inline-block;
-  /* margin-left: 50px;
-    margin-top: 50px; */
   font-size: 1em;
   font-weight: 100;
-  /* text-align: center;  */
-  /* padding-right: 400px; */
   text-align: left;
-  /* width:40%; */
   text-align: justify;
   font-family: "Quicksand", sans-serif;
 }
@@ -100,11 +92,8 @@
 }
 
 .hhappytop {
-  /* background-color: yellow; */
   position: absolute;
-  /* top: 10%;   */
   padding: 30px;
-  /* padding-top: 100px; */
   top: 0%;
   left: 10%;
   color: rgb(0, 0, 0);
@@ -141,9 +130,6 @@
   top: 95%;
   left: 20%;
   font-family: "Quicksand", sans-serif;
-  /* margin: 30px; */
-  /* margin-top: 70px; */
-  /* overflow:hidden ; */
 }
 
 .cardpreview:hover {
@@ -154,10 +140,7 @@
 .preview {
   position: relative;
   display: inline-block;
-  /* top:90%; */
   left: 75%;
-  /* margin-top:100px; */
-  /* padding-top: 400px; */
 }
 
 .happytop {
@@ -176,7 +159,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap:150px;
-  /* width: 100%; */
   font-size:1rem;
 }
 
@@ -208,11 +190,10 @@ body{
     font-size: 30px;
     font-weight: 100;
     text-align: center;
-    /* justify-content: space-between; */
+    
   }
 
   .resultshare {
-    /* display: flex; */
     justify-content: center;
     left: 25%;
   }
@@ -238,14 +219,12 @@ body{
   .card{
     margin-left: 0px;  
     width:400px;
-    /* justify-content: left; */
     margin-right: 0px;
     gap:0px;
   }
 
   .cardbody{
     width:200px;
-    /* font-size: px; */
   }
 
   

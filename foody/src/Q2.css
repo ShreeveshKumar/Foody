@@ -2,8 +2,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:30%;
   left: 70%;
   display: inline-block;
@@ -16,7 +14,6 @@
 
 .radio222answer1:hover{
   border: 2px solid #08659e;
-  /* border-bottom: 5px solid #08659e; */
   box-shadow: 0px 5px 0px 0px #08659e;
   cursor: pointer;
 }
@@ -25,8 +22,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:50%;
   left: 70%;
   display: inline-block;
@@ -39,7 +34,6 @@
 
 .radio222answer2:hover{
   border: 2px solid #08659e;
-  /* border-bottom: 5px solid #08659e; */
   box-shadow: 0px 5px 0px 0px #08659e;
   cursor: pointer;
 }
@@ -48,8 +42,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 30px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:70%;
   left: 70%;
   display: inline-block;
@@ -62,7 +54,6 @@
 
 .radio222answer3:hover{
   border: 2px solid #08659e;
-  /* border-bottom: 5px solid #08659e; */
   box-shadow: 0px 5px 0px 0px #08659e;
   cursor: pointer;
 }
@@ -130,8 +121,6 @@
   color: #e5e7e9;
   position: absolute;
   font-size: 20px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:45%;
   left: 10%;
   display: inline-block;
@@ -159,8 +148,6 @@
    color: #e5e7e9;
   position: absolute;
   font-size: 20px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:60%;
   left: 10%;
   display: inline-block;
@@ -171,13 +158,10 @@
 
 }
 
-
 .radio222answer3{
    color: #e5e7e9;
   position: absolute;
   font-size: 20px;
-  /* display: flex; */
-  /* flex-direction: column; */
   top:75%;
   left: 10%;
   display: inline-block;
@@ -187,11 +171,6 @@
   border-radius: 10px;
 
 }
-
-
-
-
-
 
 .radio222btn {
   -webkit-border-radius: 10;
@@ -215,10 +194,4 @@
   background: #33a7f0;
   text-decoration: none;
 }
-
-
-
-
-
-
 }
