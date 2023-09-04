@@ -41,30 +41,28 @@
   border-radius: 10px;
   /* border-shadow:1px solid red 10px 10px 10px 10px; */
   box-shadow: 21px 21px 21px 21px #f03333;
+  font-size: 50px;
 }
 
 .cardname {
   display: inline-block;
 
   font-weight: 400;
-  font-size: 70px;
+  font-size: 4em;
   font-family: "Indie Flower", cursive;
 }
 
 .carddesc {
   display: inline-block;
-  /* margin-left: 50px; */
-  /* font-family: 'Indie Flower', cursive;
-    font-family: 'Jost', sans-serif;
-    font-family: 'Poppins', sans-serif; */
   font-family: "Quicksand", sans-serif;
+  width:300px;
 }
 
 .cardbody {
   display: inline-block;
   /* margin-left: 50px;
     margin-top: 50px; */
-  font-size: 20px;
+  font-size: 1em;
   font-weight: 100;
   /* text-align: center;  */
   /* padding-right: 400px; */
@@ -90,20 +88,6 @@
 
 .cardimg {
   display: inline-block;
-  /* margin-left: 50px; */
-  position: relative;
-  left: 15%;
-  top: 1%;
-}
-
-.cardinfo {
-  display: inline-block;
-  /* margin-left: 50px; */
-  /* position: relative; */
-  /* left:40%; */
-  /* top:1%; */
-  width: 40%;
-  padding: 0px;
 }
 
 .resultimg {
@@ -120,13 +104,13 @@
   position: absolute;
   /* top: 10%;   */
   padding: 30px;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   top: 0%;
   left: 10%;
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-family: "Jost", sans-serif;
-  font-size: 100px;
+  font-size: 50px;
   right: 10%;
 }
 
@@ -180,7 +164,46 @@
   left: 16%;
 }
 
-@media screen and (width<=720px) {
+
+.cardbody{
+  width:350px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:150px;
+  /* width: 100%; */
+  font-size:1rem;
+}
+
+.parent_card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body{
+  width:100vw;
+  height:100vh;
+}
+
+.food_image_parent{
+  width:350px;
+}
+
+
+@media screen and (width<768px) {
+.card{
+  font-size: 0.5rem;
+}
+
+
+
   .resultbody {
     font-size: 30px;
     font-weight: 100;
@@ -194,13 +217,7 @@
     left: 25%;
   }
 
-  .card {
-    left: 0%;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 20px;
-    box-shadow: none;
-  }
+  
   .cardimg {
     left: 0;
     width: 200px;
@@ -210,25 +227,38 @@
     height: 400px;
   }
 
-  /* .cardname{
-  font-size: 80px;
-  font-weight: 100;
-  text-align: center;
-  justify-content: space-between; 
-  margin-left: 85px;
-} */
+   .resulttitle{
+    font-size: 2rem;
+   }
 
-  .cardinfo {
-    width: 380px;
-    margin-left: 10px;
+   .resultbody{
+    font-size: 1.5rem;
+   }
+
+  .card{
+    margin-left: 0px;  
+    width:400px;
+    /* justify-content: left; */
+    margin-right: 0px;
+    gap:0px;
   }
 
-    .hhappytop {
-      width:fit-content;
-       /* background-color: red;   */
-     flex-direction: column;   
-       padding-left: 0px; 
-       left: 5%; 
-       justify-content: center; 
-    }
+  .cardbody{
+    width:200px;
+    /* font-size: px; */
+  }
+
+  
+   .food_image_parent{
+    width:200px;
+    height:200px;
+   }
+   .carddesc{
+    width:200px;
+   }
+  .cardinfo{
+    width:200px;
+  }
+
+    
 }

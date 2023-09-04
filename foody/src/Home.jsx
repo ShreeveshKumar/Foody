@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import Video from "./Video";
 import ShareIcon from "@mui/icons-material/Share";
-import { useState } from "react";
+// import { useState } from "react";
 import { motion } from "framer-motion";
 
 // import Button from "@mui/material/Button";
@@ -17,19 +17,19 @@ import { motion } from "framer-motion";
 // };
 
 const Body = () => {
-  const [isCopied, setIsCopied] = useState(false);
-  const handleCopyLink = () => {
-    const link = "https://example.com"; // Replace with your desired link
+  // const [isCopied, setIsCopied] = useState(false);
+  // const handleCopyLink = () => {
+  //   const link = "https://example.com"; // Replace with your desired link
 
-    navigator.clipboard
-      .writeText(link)
-      .then(() => {
-        setIsCopied(true);
-      })
-      .catch((error) => {
-        console.error("Error copying link to clipboard:", error);
-      });
-  };
+  //   navigator.clipboard
+  //     .writeText(link)
+  //     .then(() => {
+  //       setIsCopied(true);
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error copying link to clipboard:", error);
+  //     });
+  // };
   return (
     <div className="Body">
       <section className="element2">
@@ -59,7 +59,7 @@ const Body = () => {
 
 <div className="parent1_button">
       <Link to="/q1">
-        <button className="btn" onClick={handleCopyLink}>
+        <button className="btn">
           Start experience
         </button>
       </Link>

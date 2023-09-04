@@ -4,41 +4,61 @@ body, div, img {
   box-sizing: border-box;
 }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 235px); 
-  grid-gap: 20px; 
+.image-grid1 {
+  display: flex;
+  flex-wrap: wrap;
   background-color: yellow;
+
 }
 
-.image-grid img {
-  width: 100%; 
-  height: auto; 
-}
-.image-grid img {
-  width: 100%; 
-  height: auto; 
+
+
+
+.image-grid1 img {
+  width: 200px;; 
+  height: 200px; 
   opacity: 0.7; 
   filter: brightness(1);
-}
-
-body{
-    margin: 5px;
-    /* background-color: yellow ; */
+  
 }
 
 
-@media screen and (width<=767px) {
-  .image-grid {
-    grid-template-columns: repeat(2, 160px); 
+.image-grid2 img {
+  width: 200px;; 
+  height: 200px; 
+  opacity: 0.7; 
+  filter: brightness(1);
+  
+}
+
+.image-grid1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly
+}
+
+.image-grid2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  background-color: yellow;
+}
+/* .parent_imggrid{
+  display: flex;
+} */
+
+
+
+@media screen and (width<767px) {
+  .image-grid1 img{
+    width:fit-content;
+    height: 100px;
   }
 
-  
+  .image-grid2 img{
+    width: 100px;
+    height: 100px;
+  }
  
-  .half-image:nth-child(n + 7) {
-    display: none;
-    }
-
-
 
 }

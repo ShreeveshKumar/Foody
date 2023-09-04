@@ -3,7 +3,7 @@ import React from "react";
 // import bg2 from './bg2.jpeg'
 import "./Back.css";
 
-const items = [
+const items1 = [
   {
     img: "https://openclipart.org/image/100px/268151",
     alt: "item1",
@@ -26,8 +26,11 @@ const items = [
   },
   {
     img: "https://openclipart.org/image/100px/268147",
-    alt: "item6",
-  },
+    alt: "item6"
+  }
+];
+
+  const items2 = [
   {
     img: "https://openclipart.org/image/100px/268146",
     alt: "item7",
@@ -56,13 +59,22 @@ const items = [
 
 function Back(props) {
   return (
-    <div className="image-grid">
-      {items.map((product) => {
+    <div className="parent_imggrid">
+    <div className="image-grid1">
+      {items1.map((product) => {
         return (
           <img className="half-image" src={product.img} alt={product.alt} />
         );
       })}
     </div>
+     <div className="image-grid2">
+     {items2.map((product) => {
+       return (
+         <img className="half-image" src={product.img} alt={product.alt} />
+       );
+     })}
+     </div>
+     </div>
   );
 }
 

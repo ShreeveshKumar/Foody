@@ -81,13 +81,17 @@ function Result() {
 function Card({ name, description, body, imglink, imgalt }) {
   console.log("hi");
   return (
-    <div>
+    <div class="parent_card">
       
       {/* <div className="preview">
         <button className="cardpreview">Share</button>
       </div> */}
+
+
       <div className="card">
-        <div className="cardinfo">
+
+
+         <div className="cardinfo">
           <h1 className="cardname">{name}</h1>
           <br />
           <h2 className="carddesc">{description}</h2>
@@ -99,9 +103,12 @@ function Card({ name, description, body, imglink, imgalt }) {
           </a>
           <a href="https://www.google.com/" className="hcardar" target="blank"><h2>PREVIEW</h2></a>
         </div>
+
+
         <div className="cardimg">
-          <img src={imglink} alt={imgalt} />
+          <img src={imglink} alt={imgalt} className="food_image_parent"/>
         </div>
+
       </div>
     </div>
   );
