@@ -129,7 +129,7 @@ function Ndis({name, description, body, imglink, imgalt}) {
           </a>
         </div>
         <div className="ncardimg">
-          <img src={imglink} alt={imgalt} />
+          <img src={imglink} alt={imgalt} className="parent_neutralfood"/>
         </div>
       </div>
     </div>

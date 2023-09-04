@@ -1,15 +1,19 @@
 .neutraltop {
-  /* background-color: yellow; */
   position: absolute;
-  /* top: 10%;   */
   padding: 30px;
-  padding-top: 100px;
   top:0%;
   left:5%;
   color:rgb(0, 0, 0);
   font-weight: 800;
   font-family: 'Jost', sans-serif;
   font-size:100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 
@@ -38,11 +42,8 @@
   text-decoration: none;
   display: inline-block;
   position: relative;
-  /* top: 40%; */
   left: 45%;
   font-family: "Quicksand", sans-serif;
-  /* margin: 30px; */
-  /* margin-top: 30px; */
 }
 
 .nresultshare:hover {
@@ -66,12 +67,12 @@
 
 
 .ncard {
-  /* padding:500px; */
   background-color: rgb(211, 212, 211);
-  margin: 200px;
+  margin: 120px;
   border-radius: 10px;
   /* border-shadow:1px solid red 10px 10px 10px 10px; */
   box-shadow: 21px 21px 21px 21px #3f3f3e;
+
 }
 
 .ncardname {
@@ -84,30 +85,31 @@
 
 .ncarddesc {
   display: inline-block;
-  /* margin-left: 50px; */
-  /* font-family: 'Indie Flower', cursive;
-    font-family: 'Jost', sans-serif;
-    font-family: 'Poppins', sans-serif; */
   font-family: "Quicksand", sans-serif;
+  width: 300px;
 }
 
 .ncardbody {
   display: inline-block;
-  /* margin-left: 50px;
-    margin-top: 50px; */
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 100;
-  /* text-align: center;  */
-  /* padding-right: 400px; */
-  text-align: left;
-  /* width:40%; */
   text-align: justify;
   font-family: "Quicksand", sans-serif;
+  width:300px;
 }
 
 .ncard {
   padding: 50px;
-  margin-top: 10%;
+  margin-top: 5%;
+  display: flex;
+  /* justify-content:center ; */
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  gap:200px;
+  margin-right:200px;
+  
+
 }
 
 .ncardlink {
@@ -117,9 +119,6 @@
 
 .ncardimg {
   display: inline-block;
-  /* margin-left: 50px; */
-  position: relative;
-  left: 15%;
   top: 1%;
 }
 
@@ -130,21 +129,24 @@
 }
 .ncardinfo {
   display: inline-block;
-  /* margin-left: 50px; */
-  /* position: relative; */
-  /* left:40%; */
-  /* top:1%; */
-  width: 40%;
+  width: 30%;
   padding: 0px;
 }
 
+.parent_neutralfood{
+  width:350px;
+  height: 500px;
+}
 
 
 @media screen and (width<=767px){
 
+  .nresulttitle{
+    font-size: 2rem;
+  }
 
 .nresultbody{
-  font-size: 30px;
+  font-size: 1.2rem;
   font-weight: 100;
   text-align: center;
   /* justify-content: space-between; */ 
@@ -165,15 +167,16 @@
   margin-top:150px;
   box-shadow: none;
   margin-top: 200px;
+  width:100vw;
+  gap:10px;
+  margin-top: 50px;
 }
-.ncardimg{
+.parent_neutralfood{
   left:0;
-  width:200px;
+  width:300px;
+  height: 300px;;
 }
-img{
-  width:400px;
-  height:400px;
-}
+
 
 .ncardname{
   font-size: 80px;
@@ -190,13 +193,14 @@ img{
 
 
   .neutraltop{
-    /* width:100%; */
-    /* background-color: red; */
-    width:375px;
     padding-left: 0px;
-    
+     margin-right: 0px;
   }
   
+  
+  .ncardname{
+    margin-left: 0px;
+  }
 
   .cookingfood{
     width:400px;
@@ -206,13 +210,10 @@ img{
 
   }
 
-  .image-grid{
-    /* display: none; */
-    width: 400px;
-    /* height: 400px; */
-    size: 400px;
+ 
+
+  .nresult{
+    font-size: 1rem;;
   }
-
-
 }
 
