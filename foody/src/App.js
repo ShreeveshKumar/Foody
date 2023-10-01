@@ -10,9 +10,12 @@ import { BrowserRouter as Router} from "react-router-dom";
 import {AnimatePresence} from "framer-motion";
 import Animatedroute from "./Animatedroute";
 
+
 function App() {
   // const location = useLocation(); 
+ 
   return (
+
     <Router>
       <AnimatePresence>
           <Animatedroute />
