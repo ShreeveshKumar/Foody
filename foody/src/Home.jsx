@@ -4,7 +4,7 @@ import "./Home.css";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
 import Video from "./Video";
-import ShareIcon from "@mui/icons-material/Share";
+// import ShareIcon from "@mui/icons-material/Share";
 // import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -33,7 +33,6 @@ const Body = () => {
   return (
     <div className="Body">
       <section className="element2">
-        <ShareIcon />
       </section>
 
       <div className="title1_parent">
@@ -76,7 +75,7 @@ function Home() {
     animate={{opacity:1}}
     exit={{opacity:0, transition:1}}
     >
-      <Navbar className="navibars"/>
+      <Navbar />
       <Body />
       <Video />
     </motion.div>

@@ -3,11 +3,18 @@ import Back from './Back'
 import './Sad.css'
 
 
+function share() {
+  const link = "https://foody-pvt.vercel.app/";
+  navigator.clipboard.writeText(link);
+  alert("link copied to clipboard");
+}
+
 
 function Sad() {
   return (
     <div>
       <Back className="cookingfood" />
+      <button className="resultshare" onClick={share}>Share</button>
       <Result />
       {foodsad.map((cook) => {
         return (
@@ -17,10 +24,10 @@ function Sad() {
             body={cook.body}
             imglink={cook.imglink}
             imgalt={cook.imgalt}
+            link={cook.link}
           />
         );
       })}
-      <button className="resultshare">Share</button>
     </div>
   );
 }
@@ -50,6 +57,7 @@ const foodsad = [
     body: "A beloved instant noodle brand, offering quick and delicious meals for all. Its unique flavors and convenience make it a favorite choice worldwide. ",
     imglink: "https://openclipart.org/image/600px/321425",
     imgalt: "Maggi_image",
+    link: "https://www.zomato.com/ncr/delivery?dishv2_id=6485",
   },
   {
     name: "Mango",
@@ -57,6 +65,7 @@ const foodsad = [
     body: "Mango, the King of Fruits, entices with its rich sweetness and juicy texture. A tropical delight that tantalizes taste buds and brings a burst of refreshing flavors to every bite.",
     imglink: "https://openclipart.org/image/600px/131485",
     imgalt: "Mango_image",
+    link: "https://www.bigbasket.com/pd/10000587/fresho-raw-mango-500-g/?nc=as",
   },
   {
     name: "Chocolate",
@@ -64,6 +73,7 @@ const foodsad = [
     body: "Chocolate, the ultimate mood-booster, is a delicious treat that can instantly lift your spirits. A bite of this decadent delight is all you need to feel happy and energized. So, indulge in a chocolatey delight and let your worries melt away!",
     imglink: "https://openclipart.org/image/600px/308418",
     imgalt: "Chocolate_image",
+    link: "https://www.zomato.com/ncr/delivery?dishv2_id=65419",
   },
   {
     name: "Ice Cream",
@@ -71,12 +81,13 @@ const foodsad = [
     body: "Ice cream, the perfect treat for a happy day, is a delightful dessert that can instantly lift your spirits. A scoop of this creamy delight is all you need to feel happy and energized. So, indulge in a sweet and refreshing ice cream and let your worries melt away!",
     imglink: "https://openclipart.org/image/600px/322326",
     imgalt: "Icecream_image",
+    link: "https://www.zomato.com/ncr/delivery?dishv2_id=58693",
   },
 ];
 
 
 
-function Card({ name, description, body, imglink, imgalt }) {
+function Card({ name, description, body, imglink, imgalt,link}) {
   console.log("hi");
   return (
     <div>
@@ -92,7 +103,7 @@ function Card({ name, description, body, imglink, imgalt }) {
           <h3 className="scardbody">{body}</h3>
           <br />
           <a
-            href="https://www.google.com/"
+            href={link}
             className="scardlink"
             target="blank"
           >

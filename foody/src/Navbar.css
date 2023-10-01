@@ -1,33 +1,37 @@
 .nav{
-  position: absolute;
-  width: 100%;
-  height:100%;
-  top:0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  border-bottom:2px solid white;
+  /* background-color: red; */
+  padding: 10px;
+  font-size: 20px;
+  height:2em;
+  width:100vw;
   display: flex;
-  flex-direction: column;
-  color:white
+  flex-wrap: wrap;
+
 }
 
 
 .maintitle{
   font-family: 'Jost', sans-serif;
-  margin-top: 10px;
-  font-size: 20px;
-  font-weight: 300;
-  margin-left: 15px;
-  border-bottom: #ebebeb;
-  border-bottom: 1px solid #e7e7e7;
-  margin-right: 20px;
+  
 }
 
 
 @media screen and (width<=767px) {
-  .maintitle{
-    font-size: 15px;
+  .nav{
+    font-size: 10px;
+    width:max-content;
+    height:2em;
+    justify-content: space-between;
+    padding:30px;
+    margin:0;
+    padding: 0;
 
   }
-.nav{
-    width:200px;
-}
+
     
 }
