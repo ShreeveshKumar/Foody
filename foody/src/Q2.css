@@ -110,9 +110,9 @@
 
 @media screen and (width<=767px)  {
   .radio222question{
-    top: 10%;
+    top: 5%;
     font-size: 20px;
-    width:380px;
+    /* width:380px; */
     margin-left:1px;
     padding-left: 5px;
 }

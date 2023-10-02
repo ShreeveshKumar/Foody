@@ -1,42 +1,4 @@
-.radio333answer1{
-  color: #e5e7e9;
-  position: absolute;
-  font-size: 30px;
-  top:60%;
-  left: 10%;
-  display: inline-block;
-  border: 1px solid #e7e7e7;
-  padding:40px;
-  width:400px;
-  border-radius: 10px;
 
-}
-
-.radio333answer1:hover{
-  border: 2px solid #08659e;
-  box-shadow: 0px 5px 0px 0px #08659e;
-  cursor: pointer;
-}
-
-.radio333answer2{
-  color: #e5e7e9;
-  position: absolute;
-  font-size: 30px;
-  top:60%;
-  left: 50%;
-  display: inline-block;
-  border: 1px solid #e7e7e7;
-  padding:40px;
-  width:400px;
-  border-radius: 10px;
-
-}
-
-.radio333answer2:hover{
-  border: 2px solid #08659e;
-  box-shadow: 0px 5px 0px 0px #08659e;
-  cursor: pointer;
-}
 
 
 
@@ -77,6 +39,54 @@
 
 }
 
+.order{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 200px;
+  position: absolute;
+  left:10%;
+  top:60%;
+
+  /* top:10%; */
+  /* background-color: red; */
+  /* width: 300px; */
+}
+
+.radio333answer1{
+  width:400px;
+  color: white;
+  border:2px solid #fdfdfd;
+
+  padding:50px;
+  border-radius: 15px;
+  
+}
+
+.radio333answer1:hover{
+    box-shadow: 0px 0px 50px 0px #08659e;
+    cursor: pointer;
+    /* border-bottom: 2px #08659e; */
+}
+
+
+.radio333answer2:hover{
+    box-shadow: 0px 0px 50px 0px #08659e;
+    cursor: pointer;
+    /* border-bottom: 2px #08659e; */
+}
+
+
+.radio333answer2{
+  width:400px;
+  color: white;
+  border:2px solid #ffffff;
+  /* box-shadow: 0px 0px 10px 0px #08659e; */
+  padding:50px;
+  border-radius: 15px;
+}
+
+
 
 @media screen and (width<=767px) {
   .radio333question{
@@ -88,22 +98,6 @@
   }
 
 
-  .radio333answer1{
-    top:36%;
-    width:200px;
-  }
-
-  .salt-radio{
-    margin-left: 10px;
-  }
-  .radio333answer2{
-    top:58%;
-    width:250px;
-    left:10%;
-  }
-  .spicy-radio{
-    margin-left: 10px;
-  }
 
 
 .btn333 {
@@ -118,9 +112,47 @@
   text-decoration: none;
   display: inline-block;
   position: absolute;
-  top: 83%;
+  top: 89%;
   left: 70%;
   font-family: 'Quicksand', sans-serif;
   
 }
+
+.order{
+  flex-direction: row;
+  left:0;
+  margin:5px;
+  width: 100vw;
+  top:40%;
+  gap:50px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.radio333answer1{
+  width:15rem;
+  color: white;
+  border:2px solid #fdfdfd;
+  padding:40px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.radio333answer2{
+  width:15rem;
+  color: white;
+  border:2px solid #fdfdfd;
+  padding:40px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.motivated-radio{
+  margin-left: 50px;
+}
+.demotivated-radio{
+  margin-left: 50px;
+}
+
 }

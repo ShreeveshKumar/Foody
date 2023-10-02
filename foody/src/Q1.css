@@ -164,14 +164,16 @@
     color: white;
   }
 
-
+body{
+  width:max-content;
+}
 
 
 @media screen and (width<=767px)  {
     .radio111question{
         top: 10%;
         font-size: 20px;
-        width:380px;
+        /* width:; */
         margin-left:1px;
         padding-left: 5px;
     }

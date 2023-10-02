@@ -10,27 +10,28 @@ import { Link } from "react-router-dom";
 function Q3() {
   return (
     <div>
-      <Video /> 
+      <Video />
       <Navbar />
+
       <section className="radio333question">
         <h1>Are you feeling motivated / demotivated today?</h1>
       </section>
 
-      <section className="radio333answer1">
-        <input type="radio" name="taste" id="salt-radio" />
-        <label for="salt-radio" className="salt-radio">
-          Motivated
-        </label>
-      </section>
+      <div className='order'>
+        <section className="radio333answer1">
+          <input type="radio" name="taste" id="salt-radio" />
+          <label for="salt-radio" className="motivated-radio">
+            Motivated
+          </label>
+        </section>
 
-      <section className="radio333answer2">
-        <input type="radio" name="taste" id="spicy-radio" />
-        <label for="spicy-radio" className="spicy-radio">
-          Demotivated
-        </label>
-      </section>
-
-     
+        <section className="radio333answer2">
+          <input type="radio" name="taste" id="spicy-radio" />
+          <label for="spicy-radio" className="demotivated-radio">
+            Demotivated
+          </label>
+        </section>
+      </div>
 
       {/* <section className="nextradio">
         <ArrowCircleRightIcon />

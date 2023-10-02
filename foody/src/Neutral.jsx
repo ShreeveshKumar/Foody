@@ -102,7 +102,7 @@ function Neutral() {
           />
         );
       })}
-      ;<button className="nresultshare" onClick={share}>Share</button>
+      ;<button className="resultshare" onClick={share}>Share</button>
     </div>
   );};
 
