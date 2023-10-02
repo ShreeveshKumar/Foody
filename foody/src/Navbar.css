@@ -24,7 +24,7 @@
 @media screen and (width<=767px) {
   .nav{
     font-size: 10px;
-    width:max-content;
+    width:100vw;
     height:2em;
     justify-content: space-between;
     padding:30px;

@@ -24,6 +24,8 @@ const Body = () => {
         </label>
       </section>
 
+
+<div className='order2'>
       <section className="radio222answer2">
         <input type="radio" name="taste" id="bitter-radio" />
         <label for="bitter-radio" className="normal-radio">
@@ -37,7 +39,7 @@ const Body = () => {
           Drained out
         </label>
       </section>
-
+</div>
       <Link to="/q1/q2/q3">
         <button className="radio222btn">Next</button>
       </Link>
