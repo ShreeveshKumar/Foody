@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.resultshare {
+.nresultshare {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
@@ -45,7 +45,7 @@
   font-family: "Quicksand", sans-serif;
 }
 
-.resultshare:hover {
+.nresultshare:hover {
   background: #33a7f0;
   text-decoration: none;
 }
@@ -149,7 +149,7 @@
   text-align: center;
 }
 
-.resultshare{
+.nresultshare{
   justify-content: center;
   left:25%;
   top:2%;

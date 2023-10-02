@@ -14,7 +14,9 @@ function Sad() {
   return (
     <div>
       <Back className="cookingfood" />
+      <div className="share_button">
       <button className="resultshare" onClick={share}>Share</button>
+      </div>
       <Result />
       {foodsad.map((cook) => {
         return (

@@ -108,6 +108,9 @@
   margin-left: 100px;
 }
 
+.Q1up{
+  width:fit-content;
+}
 @media screen and (width<=767px)  {
   .radio222question{
     top: 5%;

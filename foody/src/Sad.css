@@ -13,27 +13,6 @@
 }
 
 
-.resultshare {
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Courier New;
-  color: #000000;
-  font-size: 20px;
-  background: #08659e;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-  position: relative;
-  left: 45%;
-  font-family: "Quicksand", sans-serif;
-}
-
-.resultshare:hover {
-  background: #33a7f0;
-  text-decoration: none;
-}
-
 .scard {
   background-color: rgb(211, 212, 211);
   margin: 50px;
@@ -180,6 +159,8 @@
   height:450px;
 }
 
+
+
 @media screen and (width<=767px){
 
   .parent_sadfood{
@@ -193,7 +174,7 @@
 }
 
 
-.sresultshare{
+.nresultshare{
   /* display: flex; */
   justify-content: center;
   left:25%;

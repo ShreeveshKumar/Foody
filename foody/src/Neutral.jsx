@@ -102,7 +102,10 @@ function Neutral() {
           />
         );
       })}
-      ;<button className="resultshare" onClick={share}>Share</button>
+      ;
+      <div className="share_button">
+      <button className="resultshare" onClick={share}>Share</button>
+    </div>
     </div>
   );};
 

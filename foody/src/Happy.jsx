@@ -52,7 +52,11 @@ function Happy() {
   return (
     <div>
       <Back />
-      <button className="resultshare" onClick={share}>Share</button>
+      <div className="share_button">
+        <button className="resultshare" onClick={share}>
+          Share
+        </button>
+      </div>
       <Result />
 
       {card.map((cook) => {

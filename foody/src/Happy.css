@@ -20,13 +20,13 @@
   background: #08659e;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  display: inline-block;
-  position: relative;
+  /* display: inline-block; */
+  /* position: relative; */
   top: 70%;
-  left: 45%;
+  /* left: 45%; */
   font-family: "Quicksand", sans-serif;
-  margin: 30px;
-  margin-top: 70px;
+  /* margin: 30px; */
+  margin-top: 20px;
 }
 
 .resultshare:hover {
@@ -178,6 +178,14 @@ body{
   width:350px;
 }
 
+.share_button{
+  /* background-color: red; */
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center ;
+}
 
 @media screen and (width<768px) {
 .card{

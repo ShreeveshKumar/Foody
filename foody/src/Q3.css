@@ -87,6 +87,13 @@
 }
 
 
+.motivated-radio{
+  margin-left: 150px;
+}
+.demotivated-radio{
+  margin-left: 150px;
+}
+
 
 @media screen and (width<=767px) {
   .radio333question{
