@@ -23,6 +23,11 @@ To run the project locally:
 
 ## Preview
 
+![image](https://github.com/ShreeveshKumar/foody-/assets/115733778/c1d1e5a5-51b9-499c-854d-b6335ef12b6e)
+
+
+
+![image](https://github.com/ShreeveshKumar/foody-/assets/115733778/24a1feb3-25e7-49c9-97b8-a4852cca97d6)
 
 
 
