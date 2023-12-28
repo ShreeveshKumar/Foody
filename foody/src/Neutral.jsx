@@ -3,6 +3,8 @@ import Back from "./Back";
 // import Back from './Back'
 // import _ from "lodash";
 import "./Neutral.css";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 
 
@@ -85,6 +87,19 @@ const card = [
 ];
 
 function Neutral() {
+  const value = localStorage.getItem("key");
+  const keyvalue = parseInt(value, 10);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (keyvalue === 0) {
+      navigate("/");
+    } else {
+      console.log("run");
+    }
+  });
+
   return (
     <div>
       <Back />

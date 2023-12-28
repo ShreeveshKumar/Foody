@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Happy.css";
 // import Laugh from "./Laugh.png";
 import Back from "./Back.jsx";
 // import {Link} from 'react-router-dom'
+// import { useHistory } from "react-router-dom";
+// const history = useHistory();
+import { useNavigate } from "react-router-dom";
 
 const card = [
   {
@@ -49,6 +52,20 @@ function share() {
 }
 
 function Happy() {
+  const value = localStorage.getItem("key");
+  const keyvalue = parseInt(value, 10);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (keyvalue === 0) {
+      navigate("/");
+    } else {
+      console.log("run");
+    }
+  });
+
+  console.log(keyvalue);
   return (
     <div>
       <Back />

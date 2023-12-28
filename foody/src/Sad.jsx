@@ -1,6 +1,9 @@
 import React from 'react'
 import Back from './Back'
 import './Sad.css'
+import { useEffect } from 'react';
+import { useNavigate } from "react-router-dom";
+
 
 
 function share() {
@@ -11,6 +14,21 @@ function share() {
 
 
 function Sad() {
+  const value = localStorage.getItem("key");
+  const keyvalue = parseInt(value, 10);
+
+  const navigate = useNavigate();
+
+
+
+  useEffect(() => {
+    if (keyvalue === 0) {
+      navigate("/");
+    } else {
+      console.log("run");
+    }
+  });
+
   return (
     <div>
       <Back className="cookingfood" />

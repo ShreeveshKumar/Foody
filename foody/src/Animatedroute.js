@@ -17,6 +17,11 @@ import { AnimatePresence } from 'framer-motion';
 
 const Animatedroute = () => {
   const location = useLocation();
+  let value = localStorage.getItem('key');
+  console.log(value);
+  
+  
+
   
   return (
     <AnimatePresence>

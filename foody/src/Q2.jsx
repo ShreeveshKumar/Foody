@@ -4,9 +4,26 @@ import Video from "./Video";
 import "./Q2.css";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useState,useEffect } from "react";
 
 
 const Body = () => {
+  const value = localStorage.getItem('key');
+  const keyvalue = parseInt(value, 10);
+
+  const [keye, setkeye] = useState(keyvalue)
+
+
+  
+
+
+   useEffect(() => {
+     console.log(keye);
+     localStorage.setItem("key", keye);
+   });
+  
+  
+  
   return (
     <div className="radio222up">
       <section className="radio222question">
@@ -18,28 +35,48 @@ const Body = () => {
       </section>
 
       <section className="radio222answer1">
-        <input type="radio" name="taste" id="sweet-radio" />
+        <input
+          type="radio"
+          name="taste"
+          id="sweet-radio"
+          onChange={() => {
+            setkeye(keye+7);
+          }}
+        />
         <label for="sweet-radio" className="energy-radio">
           Energetic
         </label>
       </section>
 
+      <div className="order2">
+        <section className="radio222answer2">
+          <input
+            type="radio"
+            name="taste"
+            id="bitter-radio"
+            onChange={() => {
+              setkeye(keye+5);
+            }}
+          />
+          <label for="bitter-radio" className="normal-radio">
+            Normal
+          </label>
+        </section>
 
-<div className='order2'>
-      <section className="radio222answer2">
-        <input type="radio" name="taste" id="bitter-radio" />
-        <label for="bitter-radio" className="normal-radio">
-          Normal
-        </label>
-      </section>
-
-      <section className="radio222answer3">
-        <input type="radio" name="taste" id="umami-radio" />
-        <label for="umami-radio" className="drained-radio">
-          Drained out
-        </label>
-      </section>
-</div>
+        <section className="radio222answer3">
+          <input
+            type="radio"
+            name="taste"
+            id="umami-radio"
+            onChange={() => {
+              setkeye(keye+3);
+            }}
+          />
+          <label for="umami-radio" className="drained-radio">
+            Drained out
+          </label>
+        </section>
+      </div>
       <Link to="/q1/q2/q3">
         <button className="radio222btn">Next</button>
       </Link>
