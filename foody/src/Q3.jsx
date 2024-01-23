@@ -4,9 +4,6 @@ import Video from "./Video";
 import "./Q3.css";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-// import Happy from './Happy';
-// import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
-// import { motion } from "framer-motion"
 
 function Q3() {
   const value = localStorage.getItem("key");
@@ -19,20 +16,17 @@ function Q3() {
     localStorage.setItem("key", keye);
   });
 
- const DecideRoute = () => {
-   if (keyvalue === 0) {
-     return "/";
-   } else if (keyvalue >= 30) {
-     return "/q1/q2/q3/happy";
-   } else if (keyvalue >= 20) {
-     return "/q1/q2/q3/neutral";
-   } else if (keyvalue >= 10) {
-     return "/q1/q2/q3/sad";
-   }
+  const DecideRoute = () => {
+    if (keyvalue === 0) {
+      return "/";
+    } else if (keyvalue >= 30) {
+      return "/q1/q2/q3/happy";
+    } else if (keyvalue >= 20) {
+      return "/q1/q2/q3/neutral";
+    } else if (keyvalue >= 10) {
+      return "/q1/q2/q3/sad";
+    }
   };
-  
-  
-
 
   return (
     <div>
